@@ -1,3 +1,4 @@
+
 # kmer_frequency
 C version of kmer_freq.py
 
@@ -7,6 +8,7 @@ The output is `kmer_freq`.
 
 # run
 The usage is `./kmer_freq <input_file> <kmer_size>`
+Append `> OUTPUT` to the end to print to file specified by OUTPUT instead of terminal.
 
 # benchmarks
 To run benchmarks which test both the compiled C version and the Python version run `./benchmark.sh`
